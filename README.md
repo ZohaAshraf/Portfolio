@@ -3,7 +3,8 @@
 A modern and responsive personal portfolio website showcasing my skills, services, and projects as a Graphic Designer and Web Designer.
 
 ## 🔹 Live Preview
-(Enable GitHub Pages and paste your link here)
+(https://zohaashraf.github.io/Portfolio/
+)
 
 ## 🔹 Features
 - Responsive design
