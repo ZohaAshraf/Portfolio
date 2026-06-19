@@ -4,7 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Portfolio</title>
+    <title>Zoha Ashraf | AI Engineer & Machine Learning Engineer</title>
+    <meta name="description" content="Zoha Ashraf — AI Engineer, Machine Learning Engineer & Data Scientist. Portfolio of AI/ML, NLP and full-stack projects including StackSense, UrbanPark AI and more.">
+    <meta name="keywords" content="AI Engineer, Machine Learning Engineer, Data Scientist, Generative AI, Python Developer, NLP, Zoha Ashraf">
+    <meta property="og:title" content="Zoha Ashraf | AI Engineer & Machine Learning Engineer">
+    <meta property="og:description" content="Portfolio of AI/ML, Data Science and full-stack projects.">
+    <meta property="og:type" content="website">
 
     <link rel="stylesheet" href="stylesheet.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -15,13 +20,16 @@
 <body>
 
 <header class="header">
-    <a href="#" class="logo">Portfolio</a>
+    <a href="#" class="logo">Zoha<span>.</span></a>
+    <i class='bx bx-menu' id="menu-icon"></i>
     <nav class="navbar">
         <a href="#home" style="--i:1">Home</a>
         <a href="#about" style="--i:2">About</a>
         <a href="#skills" style="--i:3">Skills</a>
-        <a href="#portfolio" style="--i:4">Portfolio</a>
-        <a href="#contact" style="--i:5">Contact</a>
+        <a href="#portfolio" style="--i:4">Projects</a>
+        <a href="#experience" style="--i:5">Experience</a>
+        <a href="#contact" style="--i:6">Contact</a>
+        <a href="#" target="_blank" id="vercelNavLink" style="--i:7">Live Site <i class='bx bx-link-external'></i></a>
     </nav>
 </header>
 
@@ -32,17 +40,22 @@
         <h1>Zoha Ashraf</h1>
         <h3>And I'm a <span class="text"></span></h3>
         <p>
-            I am a Graphic Designer and a Web Designer.<br>
-            Expertise is in Graphic Designing.
+            BS Computer Science undergrad specializing in AI &amp; Full-Stack Development.<br>
+            Building intelligent systems with Python, LLMs and modern web tech.
         </p>
 
         <div class="home-sci">
-            <a href="https://www.linkedin.com/in/zohashraf/" style="--i:7"><i class='bx bxl-linkedin'></i></a>
-            <a href="https://github.com/ZohaAshraf" style="--i:8"><i class='bx bxl-github'></i></a>
-            <a href="https://medium.com/@f243019" style="--i:9"><i class='bx bxl-medium'></i></a>
+            <a href="https://www.linkedin.com/in/zohashraf/" target="_blank" style="--i:7"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://github.com/ZohaAshraf" target="_blank" style="--i:8"><i class='bx bxl-github'></i></a>
+            <a href="https://medium.com/@f243019" target="_blank" style="--i:9"><i class='bx bxl-medium'></i></a>
+            <a href="#" target="_blank" style="--i:10" id="vercelHomeLink"><svg viewBox="0 0 76 65" xmlns="http://www.w3.org/2000/svg"><path d="M37.5274 0L75.0548 65H0L37.5274 0Z"/></svg></a>
         </div>
 
-        <a href="#about" class="btn-box">More About Me</a>
+        <div class="home-btns">
+            <a href="#portfolio" class="btn-box">View Projects</a>
+            <a href="resume.pdf" class="btn-box btn-outline" download>Download Resume</a>
+            <a href="mailto:zoha14ashraf@gmail.com" class="btn-box btn-outline">Contact Me</a>
+        </div>
     </div>
     <span class="home-imgHover"></span>
 </section>
@@ -55,40 +68,43 @@
 
     <div class="about-text">
         <h2>About <span>Me</span></h2>
-        <h4>Graphic Designer!</h4>
+        <h4>AI Engineer &amp; Machine Learning Enthusiast</h4>
         <p>
-            I’m Zoha Ashraf, a passionate graphic designer who loves turning ideas into visually
-            stunning designs. I specialize in creating modern, creative, and impactful visuals
-            that help brands stand out.
+            I'm Zoha Ashraf, a 4th-semester BS Computer Science student at
+            FAST-NUCES (Chiniot-Faisalabad Campus), focused on Artificial Intelligence
+            and Full-Stack Development. My journey into AI started with classical
+            search and CSP algorithms in coursework and grew into building real
+            applications powered by LLMs, like <strong>StackSense</strong>, built on the
+            Anthropic Claude API — which placed 5th at the GDG Build with AI Hackathon 2026.
         </p>
-        <a href="#" class="btn-box">More About Me</a>
-    </div>
-</section>
+        <p>
+            I work across the stack — Python, FastAPI and Oracle SQL on the backend,
+            React on the front end — and I'm actively exploring NLP, generative AI and
+            applied machine learning. My goal is to grow into a research-driven AI
+            engineer who builds practical, intelligent products and shares what I learn
+            through writing on Medium.
+        </p>
 
-<!-- SERVICES -->
-<section class="services" id="services">
-    <div class="container">
-        <h1 class="sub-title">My <span>Services</span></h1>
-
-        <div class="services-list">
-            <div>
-                <i class='bx bx-code' style="color:#ff0073"></i>
-                <h2>UI/UX Design</h2>
-                <a href="#" class="read">Learn more</a>
+        <div class="about-stats">
+            <div class="stat-box">
+                <h3 class="counter" data-target="10">0</h3>
+                <p>Projects Completed</p>
             </div>
-
-            <div>
-                <i class='bx bx-crop'></i>
-                <h2>Graphic Design</h2>
-                <a href="#" class="read">Learn more</a>
+            <div class="stat-box">
+                <h3 class="counter" data-target="6">0</h3>
+                <p>Certifications</p>
             </div>
-
-            <div>
-                <i class='bx bxl-apple' style="color:#ff0073"></i>
-                <h2>App Design</h2>
-                <a href="#" class="read">Learn more</a>
+            <div class="stat-box">
+                <h3 class="counter" data-target="20">0</h3>
+                <p>GitHub Repositories</p>
+            </div>
+            <div class="stat-box">
+                <h3 class="counter" data-target="15">0</h3>
+                <p>Technologies Used</p>
             </div>
         </div>
+
+        <a href="#contact" class="btn-box">Let's Talk</a>
     </div>
 </section>
 
@@ -96,122 +112,495 @@
 <section id="skills">
     <h1 class="sub-title skills-title">My <span>Skills</span></h1>
 
-    <!-- TECHNICAL SKILLS -->
     <div class="container1">
-        <h1 class="heading1">Technical Skills</h1>
+        <div class="skills-grid">
 
-        <div class="Technical-bars">
-            <div class="bar">
-                <i class='bx bxl-html5' style="color:#c95d2e"></i>
-                <span>HTML</span>
-                <div class="progress-line html"><span></span></div>
+            <div class="skill-card">
+                <h3><i class='bx bxs-brain'></i> AI &amp; ML</h3>
+                <ul>
+                    <li><i class='bx bxs-circle'></i> TensorFlow</li>
+                    <li><i class='bx bxs-circle'></i> PyTorch</li>
+                    <li><i class='bx bxs-circle'></i> Scikit-Learn</li>
+                    <li><i class='bx bxs-circle'></i> Hugging Face</li>
+                    <li><i class='bx bxs-circle'></i> LangChain</li>
+                    <li><i class='bx bxs-circle'></i> OpenAI / Claude API</li>
+                </ul>
             </div>
 
-            <div class="bar">
-                <i class='bx bxl-css3' style="color:#147bbc"></i>
-                <span>CSS</span>
-                <div class="progress-line css"><span></span></div>
+            <div class="skill-card">
+                <h3><i class='bx bx-code-alt'></i> Programming</h3>
+                <ul>
+                    <li><i class='bx bxs-circle'></i> Python</li>
+                    <li><i class='bx bxs-circle'></i> SQL</li>
+                    <li><i class='bx bxs-circle'></i> JavaScript</li>
+                    <li><i class='bx bxs-circle'></i> C++</li>
+                </ul>
             </div>
 
-            <div class="bar">
-                <i class='bx bxl-javascript' style="color:#b0bc1e"></i>
-                <span>JavaScript</span>
-                <div class="progress-line javascript"><span></span></div>
+            <div class="skill-card">
+                <h3><i class='bx bx-bar-chart-alt-2'></i> Data Science</h3>
+                <ul>
+                    <li><i class='bx bxs-circle'></i> Pandas</li>
+                    <li><i class='bx bxs-circle'></i> NumPy</li>
+                    <li><i class='bx bxs-circle'></i> Matplotlib</li>
+                    <li><i class='bx bxs-circle'></i> Power BI</li>
+                </ul>
             </div>
 
-            <div class="bar">
-                <i class='bx bxl-c-plus-plus' style="color:#c32ec9"></i>
-                <span>C++</span>
-                <div class="progress-line c-plus-plus"><span></span></div>
+            <div class="skill-card">
+                <h3><i class='bx bx-globe'></i> Web Development</h3>
+                <ul>
+                    <li><i class='bx bxs-circle'></i> React</li>
+                    <li><i class='bx bxs-circle'></i> HTML</li>
+                    <li><i class='bx bxs-circle'></i> CSS / Tailwind</li>
+                    <li><i class='bx bxs-circle'></i> FastAPI</li>
+                </ul>
             </div>
 
-            <div class="bar">
-                <i class='bx bxs-palette' style="color:#ec4c08"></i>
-                <span>Graphic Designing</span>
-                <div class="progress-line Graphic-Designing"><span></span></div>
+            <div class="skill-card">
+                <h3><i class='bx bx-cloud'></i> Cloud &amp; Tools</h3>
+                <ul>
+                    <li><i class='bx bxs-circle'></i> Git</li>
+                    <li><i class='bx bxs-circle'></i> GitHub</li>
+                    <li><i class='bx bxs-circle'></i> Docker</li>
+                    <li><i class='bx bxs-circle'></i> Linux</li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="portfolio">
+    <div class="main-text">
+        <h2>Featured <span>Projects</span></h2>
+        <p class="projects-sub">All 21 projects below are live on my <a href="https://github.com/ZohaAshraf" target="_blank">GitHub</a> — browse, filter, and dig into the code, demos or write-ups.</p>
+
+        <div class="project-filters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="ai">AI</button>
+            <button class="filter-btn" data-filter="ds">Data &amp; DB</button>
+            <button class="filter-btn" data-filter="web">Web</button>
+            <button class="filter-btn" data-filter="systems">Systems / C</button>
+            <button class="filter-btn" data-filter="games">Games</button>
+        </div>
+
+        <div class="carousel-wrapper">
+            <button class="carousel-arrow left" id="prevProject"><i class='bx bx-chevron-left'></i></button>
+
+            <div class="carousel-track-wrap">
+                <div class="carousel-track" id="projectTrack">
+
+                    <div class="project-card" data-category="ai">
+                        <div class="project-thumb"><i class='bx bx-chat'></i></div>
+                        <h5>StackSense</h5>
+                        <p>AI-powered assistant built on the Anthropic Claude API for the GDG Build with AI Hackathon 2026 — placed 5th overall.</p>
+                        <div class="tech-stack"><span>Claude API</span><span>Python</span><span>LLM</span></div>
+                        <div class="project-links">
+                            <a href="https://github.com/ZohaAshraf/ai-hackathon-submission-bz-force-main" target="_blank"><i class='bx bxl-github'></i> GitHub</a>
+                            <a href="https://medium.com/@f243019/we-built-an-ai-that-reads-every-changelog-so-technical-founders-dont-have-to-6cd8069a021f" target="_blank"><i class='bx bxl-medium'></i> Blog</a>
+                        </div>
+                    </div>
+
+                    <div class="project-card" data-category="web">
+                        <div class="project-thumb"><i class='bx bx-map-alt'></i></div>
+                        <h5>UrbanPark AI</h5>
+                        <p>Smart parking & congestion optimization system with a React + FastAPI stack and Oracle SQL backend, live map integration via React-Leaflet.</p>
+                        <div class="tech-stack"><span>React</span><span>FastAPI</span><span>Oracle SQL</span></div>
+                        <div class="project-links">
+                            <a href="https://github.com/ZohaAshraf/urbanpark-ai" target="_blank"><i class='bx bxl-github'></i> GitHub</a>
+                        </div>
+                    </div>
+
+                    <div class="project-card" data-category="web">
+                        <div class="project-thumb"><i class='bx bx-car'></i></div>
+                        <h5>Parking System</h5>
+                        <p>Companion parking management module built alongside UrbanPark AI, handling slot allocation and availability logic.</p>
+                        <div class="tech-stack"><span>Python</span><span>FastAPI</span></div>
+                        <div class="project-links">
+                            <a href="https://github.com/ZohaAshraf/parking-system" target="_blank"><i class='bx bxl-github'></i> GitHub</a>
+                        </div>
+                    </div>
+
+                    <div class="project-card" data-category="ai">
+                        <div class="project-thumb"><i class='bx bx-grid-alt'></i></div>
+                        <h5>CSP Sudoku Solver</h5>
+                        <p>Constraint Satisfaction Problem solver using backtracking, forward checking and AC-3, explained step-by-step.</p>
+                        <div class="tech-stack"><span>Python</span><span>CSP</span></div>
+                        <div class="project-links">
+                            <a href="https://github.com/ZohaAshraf/CSP-Sudoku-Solver" target="_blank"><i class='bx bxl-github'></i> GitHub</a>
+                            <a href="https://medium.com/@f243019/i-built-a-sudoku-solver-using-ai-constraint-satisfaction-problems-explained-8d71ee826cdd" target="_blank"><i class='bx bxl-medium'></i> Blog</a>
+                        </div>
+                    </div>
+
+                    <div class="project-card" data-category="ai">
+                        <div class="project-thumb"><i class='bx bx-grid-alt'></i></div>
+                        <h5>AI Sudoku Solver</h5>
+                        <p>A second take on solving 'the world's hardest Sudoku' with an AI-driven constraint solving approach, deployed live.</p>
+                        <div class="tech-stack"><span>Python</span><span>CSP</span><span>Vercel</span></div>
+                        <div class="project-links">
+                            <a href="https://github.com/ZohaAshraf/ai-sudoku-solver" target="_blank"><i class='bx bxl-github'></i> GitHub</a>
+                            <a href="https://ai-sudoku-solver-theta.vercel.app/" target="_blank"><i class='bx bx-link-external'></i> Live Demo</a>
+                            <a href="https://medium.com/@f243019/i-built-an-ai-that-solves-the-worlds-hardest-sudoku-here-s-exactly-how-it-works-fd45be5332c1" target="_blank"><i class='bx bxl-medium'></i> Blog</a>
+                        </div>
+                    </div>
+
+                    <div class="project-card" data-category="ai">
+                        <div class="project-thumb"><i class='bx bx-bug'></i></div>
+                        <h5>Wumpus World Agent</h5>
+                        <p>Knowledge-based AI agent using propositional logic and resolution refutation, with a web app front end — taught a machine to fear the dark.</p>
+                        <div class="tech-stack"><span>Python</span><span>Logic AI</span></div>
+                        <div class="project-links">
+                            <a href="https://github.com/ZohaAshraf/wumpus_ai" target="_blank"><i class='bx bxl-github'></i> GitHub</a>
+                            <a href="https://wumpus-ai-lac.vercel.app/" target="_blank"><i class='bx bx-link-external'></i> Live Demo</a>
+                            <a href="https://medium.com/@f243019/artificial-intelligence-fast-nuces-2025-i-taught-a-machine-to-be-afraid-of-the-dark-and-it-58e45901be7c" target="_blank"><i class='bx bxl-medium'></i> Blog</a>
+                        </div>
+                    </div>
+
+                    <div class="project-card" data-category="ai">
+                        <div class="project-thumb"><i class='bx bx-network-chart'></i></div>
+                        <h5>AI Pathfinding Visualizer</h5>
+                        <p>Interactive visualizer for search algorithms — BFS, DFS, UCS, A*, hill climbing and simulated annealing — rendered in real time.</p>
+                        <div class="tech-stack"><span>Python</span><span>Algorithms</span><span>Visualization</span></div>
+                        <div class="project-links">
+                            <a href="https://github.com/ZohaAshraf/AI_Pathfinding_Visualizer" target="_blank"><i class='bx bxl-github'></i> GitHub</a>
+                            <a href="https://medium.com/@f243019/building-an-ai-pathfinder-visualizing-6-search-algorithms-in-real-time-1ed93e04c4d8" target="_blank"><i class='bx bxl-medium'></i> Blog</a>
+                        </div>
+                    </div>
+
+                    <div class="project-card" data-category="ai">
+                        <div class="project-thumb"><i class='bx bx-directions'></i></div>
+                        <h5>Dynamic Pathfinding Agent</h5>
+                        <p>An AI agent that finds its way through a dynamically changing environment, even when the original path disappears.</p>
+                        <div class="tech-stack"><span>Python</span><span>Search Algorithms</span></div>
+                        <div class="project-links">
+                            <a href="https://github.com/ZohaAshraf/Dynamic-Pathfinding-Agent" target="_blank"><i class='bx bxl-github'></i> GitHub</a>
+                            <a href="https://medium.com/@f243019/i-built-an-ai-agent-that-finds-its-way-even-when-the-road-disappears-a1bc8d37d3b4" target="_blank"><i class='bx bxl-medium'></i> Blog</a>
+                        </div>
+                    </div>
+
+                    <div class="project-card" data-category="ai">
+                        <div class="project-thumb"><i class='bx bx-package'></i></div>
+                        <h5>Intelligent Urban Delivery Robot</h5>
+                        <p>A delivery robot simulation using 5 different AI search algorithms to navigate an urban environment efficiently.</p>
+                        <div class="tech-stack"><span>Python</span><span>Search Algorithms</span></div>
+                        <div class="project-links">
+                            <a href="https://github.com/ZohaAshraf/-Intelligent-Urban-Delivery-Robot" target="_blank"><i class='bx bxl-github'></i> GitHub</a>
+                            <a href="https://medium.com/@f243019/how-i-built-an-intelligent-urban-delivery-robot-using-5-ai-search-algorithms-in-python-97e873b0f0b6" target="_blank"><i class='bx bxl-medium'></i> Blog</a>
+                        </div>
+                    </div>
+
+                    <div class="project-card" data-category="ai">
+                        <div class="project-thumb"><i class='bx bx-game'></i></div>
+                        <h5>Adversarial Search: Tic-Tac-Toe AI</h5>
+                        <p>An unbeatable Tic-Tac-Toe AI built with Minimax and Alpha-Beta pruning adversarial search.</p>
+                        <div class="tech-stack"><span>Python</span><span>Minimax</span><span>Alpha-Beta</span></div>
+                        <div class="project-links">
+                            <a href="https://github.com/ZohaAshraf/adversarial-search-tictactoe-ai" target="_blank"><i class='bx bxl-github'></i> GitHub</a>
+                            <a href="https://vercel.com/zohaashrafs-projects/adversarial-search-tictactoe-ai" target="_blank"><i class='bx bx-link-external'></i> Live Demo</a>
+                            <a href="https://medium.com/@f243019/i-built-a-tic-tac-toe-ai-that-never-loses-here-is-how-it-works-df6edd694561" target="_blank"><i class='bx bxl-medium'></i> Blog</a>
+                        </div>
+                    </div>
+
+                    <div class="project-card" data-category="ai">
+                        <div class="project-thumb"><i class='bx bx-trending-down'></i></div>
+                        <h5>Simulated Annealing (TSP)</h5>
+                        <p>Solving the Travelling Salesman Problem using a simulated annealing optimization approach in Python.</p>
+                        <div class="tech-stack"><span>Python</span><span>Optimization</span></div>
+                        <div class="project-links">
+                            <a href="https://github.com/ZohaAshraf/simulated-annealing" target="_blank"><i class='bx bxl-github'></i> GitHub</a>
+                            <a href="https://medium.com/@f243019/solving-the-travelling-salesman-problem-with-simulated-annealing-in-python-a62db66fdb72" target="_blank"><i class='bx bxl-medium'></i> Blog</a>
+                        </div>
+                    </div>
+
+                    <div class="project-card" data-category="ai">
+                        <div class="project-thumb"><i class='bx bx-trending-up'></i></div>
+                        <h5>Hill Climbing with Random Restarts</h5>
+                        <p>Implementing hill climbing search with random restarts in Python to escape local optima.</p>
+                        <div class="tech-stack"><span>Python</span><span>Local Search</span></div>
+                        <div class="project-links">
+                            <a href="https://github.com/ZohaAshraf/hill-climbing" target="_blank"><i class='bx bxl-github'></i> GitHub</a>
+                            <a href="https://medium.com/@f243019/hill-climbing-with-random-restarts-in-python-87804cc2660c" target="_blank"><i class='bx bxl-medium'></i> Blog</a>
+                        </div>
+                    </div>
+
+                    <div class="project-card" data-category="ds">
+                        <div class="project-thumb"><i class='bx bx-math'></i></div>
+                        <h5>Discrete Mathematical System Analyzer</h5>
+                        <p>A tool that analyzes discrete mathematical structures, bridging theory and implementation.</p>
+                        <div class="tech-stack"><span>Python</span><span>Discrete Math</span></div>
+                        <div class="project-links">
+                            <a href="http://github.com/ZohaAshraf/Discrete-Mathematical-System-Analyzer-DMSA-" target="_blank"><i class='bx bxl-github'></i> GitHub</a>
+                            <a href="https://medium.com/@f243019/building-a-discrete-mathematics-structure-analyzer-from-theory-to-implementation-d95c86d6a98b" target="_blank"><i class='bx bxl-medium'></i> Blog</a>
+                        </div>
+                    </div>
+
+                    <div class="project-card" data-category="ds">
+                        <div class="project-thumb"><i class='bx bx-buildings'></i></div>
+                        <h5>Campus Facility Management System</h5>
+                        <p>A campus management system focused on data structures and a full database schema design from scratch.</p>
+                        <div class="tech-stack"><span>C++</span><span>Data Structures</span></div>
+                        <div class="project-links">
+                            <a href="https://github.com/ZohaAshraf/Campus-Facility-Management-System" target="_blank"><i class='bx bxl-github'></i> GitHub</a>
+                            <a href="https://medium.com/@f243019/building-a-campus-management-system-a-deep-dive-into-data-structures-b6940b30ff8d" target="_blank"><i class='bx bxl-medium'></i> Blog</a>
+                        </div>
+                    </div>
+
+                    <div class="project-card" data-category="ds">
+                        <div class="project-thumb"><i class='bx bx-data'></i></div>
+                        <h5>Oracle Library Management (SQL)</h5>
+                        <p>A full library database built in Oracle SQL — schema design, normalization, and querying explained end-to-end.</p>
+                        <div class="tech-stack"><span>Oracle SQL</span><span>PL/SQL</span></div>
+                        <div class="project-links">
+                            <a href="https://github.com/ZohaAshraf/oracle-library-management-sql" target="_blank"><i class='bx bxl-github'></i> GitHub</a>
+                            <a href="https://oracle-library-management-sql.vercel.app/" target="_blank"><i class='bx bx-link-external'></i> Live Demo</a>
+                            <a href="https://medium.com/@f243019/i-built-a-library-database-to-learn-sql-heres-the-full-breakdown-59a7de30ea55" target="_blank"><i class='bx bxl-medium'></i> Blog</a>
+                        </div>
+                    </div>
+
+                    <div class="project-card" data-category="systems">
+                        <div class="project-thumb"><i class='bx bx-money'></i></div>
+                        <h5>Concurrent Banking System</h5>
+                        <p>Semester-long C project: FCFS/Priority/Round Robin scheduling, Banker's Algorithm, IPC via POSIX queues, FIFO/LRU page replacement.</p>
+                        <div class="tech-stack"><span>C</span><span>OS Concepts</span><span>IPC</span></div>
+                        <div class="project-links">
+                            <a href="https://github.com/ZohaAshraf/concurrent-banking-system-c" target="_blank"><i class='bx bxl-github'></i> GitHub</a>
+                            <a href="https://medium.com/@f243019/i-built-a-concurrent-banking-system-in-c-to-master-operating-systems-0f377abbeff1" target="_blank"><i class='bx bxl-medium'></i> Blog</a>
+                        </div>
+                    </div>
+
+                    <div class="project-card" data-category="systems">
+                        <div class="project-thumb"><i class='bx bx-calculator'></i></div>
+                        <h5>Student Grade Calculator</h5>
+                        <p>My first C project as a beginner — a grade calculator that taught me the fundamentals of the language.</p>
+                        <div class="tech-stack"><span>C</span></div>
+                        <div class="project-links">
+                            <a href="https://github.com/ZohaAshraf/Student-Grade-Calculator-C-Language" target="_blank"><i class='bx bxl-github'></i> GitHub</a>
+                            <a href="https://student-grade-calculator-c-language.vercel.app/" target="_blank"><i class='bx bx-link-external'></i> Live Demo</a>
+                            <a href="https://medium.com/@f243019/title-i-built-my-first-c-project-as-a-beginner-heres-what-i-learned-3394ff139bc1" target="_blank"><i class='bx bxl-medium'></i> Blog</a>
+                        </div>
+                    </div>
+
+                    <div class="project-card" data-category="web">
+                        <div class="project-thumb"><i class='bx bx-file'></i></div>
+                        <h5>pdfpink</h5>
+                        <p>A real, working file converter website built from scratch — handling PDF and document conversions in the browser.</p>
+                        <div class="tech-stack"><span>JavaScript</span><span>Web App</span></div>
+                        <div class="project-links">
+                            <a href="https://github.com/ZohaAshraf/pdfpink" target="_blank"><i class='bx bxl-github'></i> GitHub</a>
+                            <a href="https://medium.com/@f243019/i-built-a-real-file-converter-website-from-scratch-heres-how-i-did-it-df99b79f7ef5" target="_blank"><i class='bx bxl-medium'></i> Blog</a>
+                        </div>
+                    </div>
+
+                    <div class="project-card" data-category="games">
+                        <div class="project-thumb"><i class='bx bx-castle'></i></div>
+                        <h5>Strong Hold Game</h5>
+                        <p>A multiplayer medieval strategy game written in pure C — a deep dive into game state and networking logic.</p>
+                        <div class="tech-stack"><span>C</span><span>Game Dev</span></div>
+                        <div class="project-links">
+                            <a href="https://github.com/ZohaAshraf/Strong-Hold-Game" target="_blank"><i class='bx bxl-github'></i> GitHub</a>
+                            <a href="https://medium.com/@f243019/i-built-a-multiplayer-medieval-strategy-game-in-pure-c-heres-what-i-learned-2149568cf451" target="_blank"><i class='bx bxl-medium'></i> Blog</a>
+                        </div>
+                    </div>
+
+                    <div class="project-card" data-category="games">
+                        <div class="project-thumb"><i class='bx bx-joystick'></i></div>
+                        <h5>Atari Breakout</h5>
+                        <p>A classic Breakout clone built in pure Assembly — a deep dive into low-level game development.</p>
+                        <div class="tech-stack"><span>Assembly</span><span>Game Dev</span></div>
+                        <div class="project-links">
+                            <a href="https://github.com/ZohaAshraf/Atari-Breakout" target="_blank"><i class='bx bxl-github'></i> GitHub</a>
+                            <a href="https://medium.com/@f243019/building-atari-breakout-in-pure-assembly-a-deep-dive-into-low-level-game-development-ae7e5509fc3b" target="_blank"><i class='bx bxl-medium'></i> Blog</a>
+                        </div>
+                    </div>
+
+                    <div class="project-card" data-category="games">
+                        <div class="project-thumb"><i class='bx bx-bomb'></i></div>
+                        <h5>BomberMan Game</h5>
+                        <p>A classic BomberMan-style arcade game built in C++ as an early foundational project.</p>
+                        <div class="tech-stack"><span>C++</span><span>Game Dev</span></div>
+                        <div class="project-links">
+                            <a href="https://github.com/ZohaAshraf/BomberManGame" target="_blank"><i class='bx bxl-github'></i> GitHub</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <button class="carousel-arrow right" id="nextProject"><i class='bx bx-chevron-right'></i></button>
+        </div>
+    </div>
+</section>
+
+<!-- EXPERIENCE TIMELINE -->
+<section id="experience">
+    <div class="main-text">
+        <h2>My <span>Journey</span></h2>
+
+        <div class="timeline">
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="timeline-date">Jul 2026</span>
+                    <h3>Web Development Intern — Arch Technologies</h3>
+                    <p>8-week remote internship building and shipping web features as part of a distributed engineering team.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="timeline-date">2026</span>
+                    <h3>Intern — Askolay</h3>
+                    <p>Marketing &amp; creative agency internship in Faisalabad, contributing to design and development tasks.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="timeline-date">2026</span>
+                    <h3>5th Place — GDG Build with AI Hackathon</h3>
+                    <p>Built StackSense, an AI assistant powered by the Anthropic Claude API, placing 5th out of all competing teams.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="timeline-date">2025</span>
+                    <h3>Operations Team — FAST Job Fair 2025</h3>
+                    <p>Coordinated logistics and operations for the university's annual job fair.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="timeline-date">2024 – Present</span>
+                    <h3>Freelance Designer — Fiverr</h3>
+                    <p>Delivering graphic design work to clients while building technical writing skills on Medium.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="timeline-date">2024</span>
+                    <h3>Co-Organizer — AI Workshop</h3>
+                    <p>Helped organize and run an AI workshop for 50+ students at FAST-NUCES.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- CERTIFICATIONS -->
+<section id="certifications">
+    <div class="main-text">
+        <h2>My <span>Certifications</span></h2>
+
+        <div class="carousel-wrapper">
+            <button class="carousel-arrow left" id="prevCert"><i class='bx bx-chevron-left'></i></button>
+
+            <div class="carousel-track-wrap">
+                <div class="carousel-track" id="certTrack">
+
+                    <div class="cert-card">
+                        <i class='bx bxs-certification'></i>
+                        <h5>Visual Designer — DLD Exhibition</h5>
+                        <p class="cert-issuer">FAST-NUCES, Chiniot-Faisalabad</p>
+                        <p class="cert-date">2025</p>
+                        <a href="https://www.linkedin.com/in/zohashraf/" target="_blank">View Post <i class='bx bx-link-external'></i></a>
+                    </div>
+
+                    <div class="cert-card">
+                        <i class='bx bxs-certification'></i>
+                        <h5>Job Fair Usher</h5>
+                        <p class="cert-issuer">FAST-NUCES, Chiniot-Faisalabad</p>
+                        <p class="cert-date">April 2025</p>
+                        <a href="https://www.linkedin.com/posts/zohashraf_professionalgrowth-eventmanagement-leadershipskills-activity-7362069931221209088-9NA9?utm_source=share&amp;utm_medium=member_desktop&amp;rcm=ACoAAFJiJxMBAwrlTGZzXSYgB2R0zyBzazFsYbg" target="_blank">View Post <i class='bx bx-link-external'></i></a>
+                    </div>
+
+                    <div class="cert-card">
+                        <i class='bx bxs-certification'></i>
+                        <h5>Visual Designer — Digital Logic Design Exhibition</h5>
+                        <p class="cert-issuer">FAST-NUCES, Dept. of Computer Science</p>
+                        <p class="cert-date">2025</p>
+                        <a href="https://www.linkedin.com/posts/zohashraf_visualdesign-graphicdesign-eventbranding-activity-7362084639735181312-DiwL?utm_source=share&amp;utm_medium=member_desktop&amp;rcm=ACoAAFJiJxMBAwrlTGZzXSYgB2R0zyBzazFsYbg" target="_blank">View Post <i class='bx bx-link-external'></i></a>
+                    </div>
+
+                    <div class="cert-card">
+                        <i class='bx bxs-certification'></i>
+                        <h5>Organizer — Introduction to AI for Future Engineers</h5>
+                        <p class="cert-issuer">FAST-NUCES, Dept. of Computer Engineering</p>
+                        <p class="cert-date">Sept 2025</p>
+                        <a href="https://www.linkedin.com/posts/zohashraf_leadership-recognition-eventmanagement-activity-7378860837073027072-dghF?utm_source=share&amp;utm_medium=member_desktop&amp;rcm=ACoAAFJiJxMBAwrlTGZzXSYgB2R0zyBzazFsYbg" target="_blank">View Post <i class='bx bx-link-external'></i></a>
+                    </div>
+
+                    <div class="cert-card">
+                        <i class='bx bxs-certification'></i>
+                        <h5>Build with AI Hackathon 2026 — 5th Place</h5>
+                        <p class="cert-issuer">GDG on Campus, FAST-NUCES</p>
+                        <p class="cert-date">2026</p>
+                        <a href="https://www.linkedin.com/posts/zohashraf_buildwithai-gdg-fastnuces-activity-7458915450622640128-uxOa?utm_source=share&amp;utm_medium=member_desktop&amp;rcm=ACoAAFJiJxMBAwrlTGZzXSYgB2R0zyBzazFsYbg" target="_blank">View Post <i class='bx bx-link-external'></i></a>
+                    </div>
+
+                </div>
+            </div>
+
+            <button class="carousel-arrow right" id="nextCert"><i class='bx bx-chevron-right'></i></button>
+        </div>
+    </div>
+</section>
+
+<!-- GITHUB -->
+<section id="github">
+    <div class="main-text">
+        <h2>GitHub <span>Stats</span></h2>
+
+        <div class="github-grid">
+            <div class="github-card">
+                <img src="https://github-readme-stats.vercel.app/api?username=ZohaAshraf&show_icons=true&theme=radical&bg_color=0d1b29&title_color=ff0073&icon_color=ff0073&text_color=ededed&border_color=ff0073" alt="GitHub Stats" loading="lazy">
+            </div>
+            <div class="github-card">
+                <img src="https://github-readme-streak-stats.herokuapp.com/?user=ZohaAshraf&theme=radical&background=0d1b29&ring=ff0073&fire=ff0073&currStreakLabel=ff0073&border=ff0073" alt="GitHub Streak" loading="lazy">
+            </div>
+            <div class="github-card">
+                <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ZohaAshraf&layout=compact&theme=radical&bg_color=0d1b29&title_color=ff0073&text_color=ededed&border_color=ff0073" alt="Top Languages" loading="lazy">
             </div>
         </div>
     </div>
-
-    <!-- PROFESSIONAL SKILLS -->
-    <section class="professional-skills">
-        <div class="container1">
-            <h1 class="heading1">Professional Skills</h1>
-
-            <div class="radial-bars">
-
-                <div class="radial-bar">
-                    <svg viewBox="0 0 200 200">
-                        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
-                        <circle class="path path-1" cx="100" cy="100" r="80"></circle>
-                    </svg>
-                    <div class="percentage">90%</div>
-                    <div class="text">Creativity</div>
-                </div>
-
-                <div class="radial-bar">
-                    <svg viewBox="0 0 200 200">
-                        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
-                        <circle class="path path-2" cx="100" cy="100" r="80"></circle>
-                    </svg>
-                    <div class="percentage">65%</div>
-                    <div class="text">Communication</div>
-                </div>
-
-                <div class="radial-bar">
-                    <svg viewBox="0 0 200 200">
-                        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
-                        <circle class="path path-3" cx="100" cy="100" r="80"></circle>
-                    </svg>
-                    <div class="percentage">75%</div>
-                    <div class="text">Problem Solving</div>
-                </div>
-
-                <div class="radial-bar">
-                    <svg viewBox="0 0 200 200">
-                        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
-                        <circle class="path path-4" cx="100" cy="100" r="80"></circle>
-                    </svg>
-                    <div class="percentage">85%</div>
-                    <div class="text">Teamwork</div>
-                </div>
-
-            </div>
-        </div>
-    </section>
 </section>
 
-<!-- PORTFOLIO -->
-<section id="portfolio">
+<!-- ACHIEVEMENTS -->
+<section id="achievements">
     <div class="main-text">
-        <h2>Latest <span>Project</span></h2>
+        <h2>My <span>Achievements</span></h2>
 
-        <div class="portfolio-content">
-            <div class="row">
-                <img src="12341.png" alt="Work">
-                <div class="layer">
-                    <h5>UI/UX Design</h5>
-                    <p>Wedding design project</p>
-                    <a href="#"><i class='bx bx-link-external'></i></a>
-                </div>
+        <div class="achievements-grid">
+            <div class="achieve-card">
+                <i class='bx bxs-trophy'></i>
+                <h3 class="counter" data-target="3">0</h3>
+                <p>Hackathons Participated</p>
             </div>
-
-            <div class="row">
-                <img src="4561.png" alt="Work">
-                <div class="layer">
-                    <h5>UI/UX Design</h5>
-                    <p>Wedding design project</p>
-                    <a href="#"><i class='bx bx-link-external'></i></a>
-                </div>
+            <div class="achieve-card">
+                <i class='bx bxs-medal'></i>
+                <h3 class="counter" data-target="1">0</h3>
+                <p>Top-5 Hackathon Finish</p>
             </div>
-
-            <div class="row">
-                <img src="789.png" alt="Work">
-                <div class="layer">
-                    <h5>UI/UX Design</h5>
-                    <p>Wedding design project</p>
-                    <a href="#"><i class='bx bx-link-external'></i></a>
-                </div>
+            <div class="achieve-card">
+                <i class='bx bxs-award'></i>
+                <h3 class="counter" data-target="6">0</h3>
+                <p>Certifications Earned</p>
+            </div>
+            <div class="achieve-card">
+                <i class='bx bxs-graduation'></i>
+                <h3 class="counter" data-target="2">0</h3>
+                <p>Internship Offers</p>
             </div>
         </div>
     </div>
@@ -222,31 +611,38 @@
     <div class="contact-text">
         <h2>Contact <span>Me</span></h2>
         <h4>Let's work together!</h4>
- <p>I'm always open to new projects and collaborations. Whether you have an idea to discuss or want to work together, feel free to reach out via email. I'll get back to you soon!</p>
+        <p>I'm always open to new projects and collaborations. Whether you have an idea to discuss or want to work together, feel free to reach out via email. I'll get back to you soon!</p>
         <ul class="contact-list">
-            <li><i class='bx bxs-send'></i> zoha14ashraf@gmail.com</li>
+            <li><i class='bx bxs-send'></i> <span id="emailText">zoha14ashraf@gmail.com</span>
+                <button class="copy-btn" data-copy="zoha14ashraf@gmail.com" title="Copy email"><i class='bx bx-copy'></i></button>
+            </li>
             <li><i class='bx bxs-phone'></i> 0123456789</li>
         </ul>
 
         <div class="contact-icons">
-            <a href="https://www.linkedin.com/in/zohashraf/"><i class='bx bxl-linkedin'></i></a>
-            <a href="https://github.com/ZohaAshraf"><i class='bx bxl-github'></i></a>
-            <a href="https://medium.com/@f243019"><i class='bx bxl-medium'></i></a>
+            <a href="https://www.linkedin.com/in/zohashraf/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://github.com/ZohaAshraf" target="_blank"><i class='bx bxl-github'></i></a>
+            <a href="https://medium.com/@f243019" target="_blank"><i class='bx bxl-medium'></i></a>
+            <a href="https://www.kaggle.com/" target="_blank"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M18.825 23.859c-.022.092-.117.141-.281.141h-3.139c-.187 0-.351-.082-.492-.248l-5.178-6.589-1.448 1.374v5.111c0 .235-.117.352-.351.352H5.505c-.236 0-.354-.117-.354-.352V.353c0-.233.118-.353.354-.353h2.431c.234 0 .351.12.351.353v14.343l6.27-6.272c.165-.165.33-.246.495-.246h3.239c.144 0 .236.06.27.179a.32.32 0 0 1-.057.282l-6.567 6.51 6.866 8.317c.068.078.092.18.022.246z"/></svg></a>
+            <a href="#" target="_blank" id="vercelContactLink"><svg viewBox="0 0 76 65" xmlns="http://www.w3.org/2000/svg"><path d="M37.5274 0L75.0548 65H0L37.5274 0Z"/></svg></a>
         </div>
     </div>
 
     <div class="contact-form">
-        <form>
-            <input type="text" placeholder="Your Name" required>
-            <input type="email" placeholder="Your Email" required>
-            <textarea rows="6" placeholder="Your Message" required></textarea>
+        <form id="contactForm" action="https://formsubmit.co/zoha14ashraf@gmail.com" method="POST">
+            <input type="hidden" name="_subject" value="New message from portfolio site">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_template" value="table">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea rows="6" name="message" placeholder="Your Message" required></textarea>
             <input type="submit" value="Send" class="send">
         </form>
     </div>
 </section>
 
 <div class="last-text">
-    <p>Developed with love by Zoha Ashraf © 2025</p>
+    <p>Developed with love by Zoha Ashraf © 2026</p>
 </div>
 
 <a href="#" class="top"><i class='bx bx-up-arrow-alt'></i></a>
